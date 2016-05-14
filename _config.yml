@@ -1,6 +1,3 @@
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-# relative_permalinks: true
 
 # Setup
 title:            Reminiz Tips
@@ -9,19 +6,18 @@ description:      'This is so cool bro !'
 url:            http://antoine-cha.github.io/tips/
 baseurl:             ''
 paginate:            5
+permalink:           pretty
 
 author:
-  name:           'Your Name'
-  url:            http://antoine-cha.github.io/codinfox-lanyon/
-  gravatar:       https://en.gravatar.com/yourname
-  photo:          http://2.gravatar.com/avatar/00000000000000000000000000000000?size=350
-  introduction:   'Some introduction words that will be displayed under the avatar. You may include HTML <a href="#">here</a>.'
-
-paginate:         5
-paginate_path:    '/blog/page:num'
+  name: Mark Otto
+email: markdotto@gmail.com
 
 # Custom vars
-version:          1.0.0
+version: 1.0.0
 
-github:
-  repo:           https://github.com/antoine-cha/lanyon-codinfox
+gems:
+  - jekyll-paginate
+
+markdown: kramdown
+kramdown:
+  input: GFM
