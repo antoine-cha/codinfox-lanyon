@@ -6,13 +6,14 @@ description:      'This is so cool bro !'
 url:            http://antoine-cha.github.io/tips/
 baseurl:             ''
 paginate:            5
-permalink:           pretty
+permalink: pretty
 
+  # About/contact
 author:
   name: Mark Otto
 email: markdotto@gmail.com
 
-# Custom vars
+  # Custom vars
 version: 1.0.0
 
 gems:
@@ -21,3 +22,7 @@ gems:
 markdown: kramdown
 kramdown:
   input: GFM
+
+sass:
+  style: compressed
+  sass_dir: _scss
