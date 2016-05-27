@@ -1,10 +1,9 @@
-# Setup
+# Site info
 title:            Reminiz Tips
 tagline:          'Improve everyday.'
 description:      'This is so cool bro !'
 url:            http://antoine-cha.github.io/tips/
 baseurl:             ''
-paginate:            5
 
 # Site configurations
 gems:
