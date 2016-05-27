@@ -4,6 +4,7 @@ tagline:          'Improve everyday.'
 description:      'This is so cool bro !'
 url:            http://antoine-cha.github.io/tips/
 baseurl:             ''
+logo: '/public/logo.png'
 
 # Site configurations
 gems:
