@@ -1,4 +1,3 @@
-
 Changed typesetting of blog to enhance readability.
 =======
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
@@ -120,12 +119,15 @@ Lanyon has two branches, but only one is used for active development.
 - `master` for development.  **All pull requests should be to submitted against `master`.**
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
+Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
-## Author
+All the configurations are inside either `_config.yml` or `_config.scss`. The options are fairly straightforward.
 
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+The theme supports:
+1. Theme colors: you can choose your favorite theme color
+2. Changable sidebar locations
+3. Integration of MathJax, Disqus and Google Analytics
+4. and numerous improvements over original Lanyon
 
 
 ## License
