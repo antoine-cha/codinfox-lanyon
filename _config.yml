@@ -8,10 +8,10 @@ permalink:           pretty
 # relative_permalinks: true
 
 # Setup
-title:            Codinfox
-tagline:          'Learning to be Giant.'
-description:      'Blog of YourName. Here are some technical stuff. Some notes about development.'
-url:              http://codinfox.github.io
+title:            Reminiz Tips
+tagline:          'Improve everyday.'
+description:      'This is so cool bro !'
+url:            http://antoine-cha.github.io/codinfox-lanyon/
 
 author:
   name:           'Your Name'
