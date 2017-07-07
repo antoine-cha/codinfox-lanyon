@@ -8,7 +8,7 @@ Here we generate all the categories.
 
 {% assign rawcats = "" %}
 {% for post in site.posts %}
-{% assign tcats = post.category | join:'|' | append:'|' %}
+{% assign tcats = post.author | join:'|' | append:'|' %}
 {% assign rawcats = rawcats | append:tcats %}
 {% endfor %}
 
@@ -46,7 +46,7 @@ Here we generate all the categories.
 <h2 id="{{ ct | slugify }}">{{ ct }}</h2>
 <ul class="codinfox-category-list">
   {% for post in site.posts %}
-  {% if post.category contains ct %}
+  {% if post.author contains ct %}
   <li>
     <h3>
       <a href="{{ site.root}}/{{ post.url }}">
@@ -66,7 +66,7 @@ Here we generate all the categories.
 <h2 id="no-category">No Category</h2>
 <ul class="codinfox-category-list">
   {% for post in site.posts %}
-  {% unless post.category %}
+  {% unless post.author %}
   <li>
     <h3>
       <a href="{{ site.root }}{{ post.url }}">
