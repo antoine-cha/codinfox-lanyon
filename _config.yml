@@ -12,6 +12,7 @@ title:            Reminiz Tips
 tagline:          'Improve everyday.'
 description:      'This is so cool bro !'
 url:            http://antoine-cha.github.io/codinfox-lanyon/
+root:           /codinfox-lanyon
 
 author:
   name:           'Your Name'
