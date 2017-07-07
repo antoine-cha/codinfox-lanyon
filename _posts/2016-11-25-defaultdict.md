@@ -2,7 +2,7 @@
 layout: post
 title: defaultdict.md
 author: Antoine
-tags: [Antoine,python]
+tags: [python]
 ---
 ## Default dicts in Python
 

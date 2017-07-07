@@ -2,7 +2,7 @@
 layout: post
 title: color-schemes.md
 author: Antoine
-tags: [Antoine,bash]
+tags: [bash]
 ---
 ## Color schemes for GNOME Terminal and iTerm2 
 

@@ -2,7 +2,7 @@
 layout: post
 title: submodule_update.md
 author: Klexounet
-tags: [Klexounet,git]
+tags: [git]
 ---
 ## Submodule update
 

@@ -2,7 +2,7 @@
 layout: post
 title: find-and-execute-them-all.md
 author: lcaminon
-tags: [lcaminon,bash]
+tags: [bash]
 ---
 Problem : You want to execute the same command into a lot of subdirectories ?
 

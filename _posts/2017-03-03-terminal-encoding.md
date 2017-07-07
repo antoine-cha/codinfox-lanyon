@@ -2,7 +2,7 @@
 layout: post
 title: terminal-encoding.md
 author: Antoine
-tags: [Antoine,docker]
+tags: [docker]
 ---
 ## Setting the terminal encoding
 

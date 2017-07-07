@@ -2,7 +2,7 @@
 layout: post
 title: pg_dump-restore.md
 author: Antoine
-tags: [Antoine,sql]
+tags: [sql]
 ---
 # Using `pg_dump` and `pg_restore` to save and reload a PostgreSQL database
 

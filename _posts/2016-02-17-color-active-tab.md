@@ -2,7 +2,7 @@
 layout: post
 title: color-active-tab.md
 author: Antoine
-tags: [Antoine,bash]
+tags: [bash]
 ---
 ## Coloring the active tab
 

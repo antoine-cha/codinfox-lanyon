@@ -2,7 +2,7 @@
 layout: post
 title: psql_remote_acces.md
 author: Antoine
-tags: [Antoine,sql]
+tags: [sql]
 ---
 # Allow remote access from a specific adress
 

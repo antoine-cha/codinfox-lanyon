@@ -2,7 +2,7 @@
 layout: post
 title: mplayer_speed_stable_pitch.md
 author: antoan2
-tags: [antoan2,ubuntu_programs]
+tags: [ubuntu_programs]
 ---
 # Keeping stable pitch when accelerating a video with mplayer
 

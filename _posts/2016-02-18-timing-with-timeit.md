@@ -2,7 +2,7 @@
 layout: post
 title: timing-with-timeit.md
 author: Antoine
-tags: [Antoine,python]
+tags: [python]
 ---
 ## Timing execution with timeit
 

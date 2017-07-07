@@ -2,7 +2,7 @@
 layout: post
 title: store-command.md
 author: Antoine
-tags: [Antoine,bash]
+tags: [bash]
 ---
 # Storing a command in a var to evaluate it whenever needed
 

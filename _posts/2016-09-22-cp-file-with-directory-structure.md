@@ -2,7 +2,7 @@
 layout: post
 title: cp-file-with-directory-structure.md
 author: Klexounet
-tags: [Klexounet,bash]
+tags: [bash]
 ---
 ## Copy a set of files present in a directory in another directory conserving the structure
 

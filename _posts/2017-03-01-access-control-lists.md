@@ -2,7 +2,7 @@
 layout: post
 title: access-control-lists.md
 author: Antoine
-tags: [Antoine,linux]
+tags: [linux]
 ---
 ## Access Control Lists (ACLs)
 

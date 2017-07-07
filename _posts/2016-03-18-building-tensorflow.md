@@ -2,7 +2,7 @@
 layout: post
 title: building-tensorflow.md
 author: Antoine
-tags: [Antoine,python]
+tags: [python]
 ---
 ## Building Tensorflow from sources
 

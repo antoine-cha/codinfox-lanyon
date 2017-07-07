@@ -2,7 +2,7 @@
 layout: post
 title: case-insensitive-autocompletion.md
 author: antoan2
-tags: [antoan2,bash]
+tags: [bash]
 ---
 Problem : can be cool to autocomplete "doc[tab]" even if the folder is named "Documents"
 Goal : We are going to modify .inputrc

@@ -2,7 +2,7 @@
 layout: post
 title: reload-dependencies-ipython.md
 author: Olivier
-tags: [Olivier,python]
+tags: [python]
 ---
 Problem : In ipython, the reload of the import is not automatically done when launching new script or launching new command
 

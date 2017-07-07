@@ -2,7 +2,7 @@
 layout: post
 title: set-err_out-equal-to-std_out.md
 author: Baptiste
-tags: [Baptiste,bash]
+tags: [bash]
 ---
 Quand on écrit une commande, on peut en rediriger la sortie standard vers un fichier : `commande > file` ou à la fin d'un fichier : `commande >> file`
 

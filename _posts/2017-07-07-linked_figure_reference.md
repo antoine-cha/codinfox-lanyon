@@ -2,7 +2,7 @@
 layout: post
 title: linked_figure_reference.md
 author: Antoine
-tags: [Antoine,latex]
+tags: [latex]
 ---
 To link a figure in a latex document :
 

@@ -2,7 +2,7 @@
 layout: post
 title: set-tab-title.md
 author: Antoine
-tags: [Antoine,bash]
+tags: [bash]
 ---
 ## Set the title of tabs in the terminal 
 

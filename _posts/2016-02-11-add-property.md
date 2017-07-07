@@ -2,7 +2,7 @@
 layout: post
 title: add-property.md
 author: antoan2
-tags: [antoan2,oar]
+tags: [oar]
 ---
 # Adding property on ressources
 

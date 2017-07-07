@@ -2,7 +2,7 @@
 layout: post
 title: cheatsheet.md
 author: antoan2
-tags: [antoan2,docker]
+tags: [docker]
 ---
 # Remove all stopped containers.
 ```

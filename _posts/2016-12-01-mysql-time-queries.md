@@ -2,7 +2,7 @@
 layout: post
 title: mysql-time-queries.md
 author: Antoine
-tags: [Antoine,sql]
+tags: [sql]
 ---
 ## Timing queries with MySQL
 

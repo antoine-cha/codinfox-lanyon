@@ -2,7 +2,7 @@
 layout: post
 title: sorting-special-chars.md
 author: Antoine
-tags: [Antoine,python]
+tags: [python]
 ---
 ### Sorting with special characters
 

@@ -2,7 +2,7 @@
 layout: post
 title: put-nodes-alive.md
 author: antoan2
-tags: [antoan2,oar]
+tags: [oar]
 ---
 # Setting nodes to alive
 

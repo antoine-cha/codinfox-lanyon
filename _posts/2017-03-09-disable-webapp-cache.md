@@ -2,7 +2,7 @@
 layout: post
 title: disable-webapp-cache.md
 author: Antoine
-tags: [Antoine,azure]
+tags: [azure]
 ---
 # Disabling caching a webapp
 

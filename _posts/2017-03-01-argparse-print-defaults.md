@@ -2,7 +2,7 @@
 layout: post
 title: argparse-print-defaults.md
 author: Antoine
-tags: [Antoine,python]
+tags: [python]
 ---
 ## Printing default values with argparse
 

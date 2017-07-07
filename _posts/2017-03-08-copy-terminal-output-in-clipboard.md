@@ -2,7 +2,7 @@
 layout: post
 title: copy-terminal-output-in-clipboard.md
 author: Klexounet
-tags: [Klexounet,bash]
+tags: [bash]
 ---
 To copy the output of a command directly into clipboard, without having to select it manually, add 
 

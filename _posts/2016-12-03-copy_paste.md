@@ -2,7 +2,7 @@
 layout: post
 title: copy_paste.md
 author: antoan2
-tags: [antoan2,tmux]
+tags: [tmux]
 ---
 # How to copy paste using tmux buffers
 

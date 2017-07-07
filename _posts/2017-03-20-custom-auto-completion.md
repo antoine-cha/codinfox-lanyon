@@ -2,7 +2,7 @@
 layout: post
 title: custom-auto-completion.md
 author: Klexounet
-tags: [Klexounet,bash]
+tags: [bash]
 ---
 # Custom auto-completion for bash functions
 

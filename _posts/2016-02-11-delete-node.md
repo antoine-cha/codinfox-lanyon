@@ -2,7 +2,7 @@
 layout: post
 title: delete-node.md
 author: antoan2
-tags: [antoan2,oar]
+tags: [oar]
 ---
 # Deleting a node
 

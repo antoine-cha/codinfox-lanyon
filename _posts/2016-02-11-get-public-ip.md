@@ -2,7 +2,7 @@
 layout: post
 title: get-public-ip.md
 author: antoan2
-tags: [antoan2,bash]
+tags: [bash]
 ---
 # Get the public ip from command line
 

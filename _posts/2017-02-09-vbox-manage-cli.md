@@ -2,7 +2,7 @@
 layout: post
 title: vbox-manage-cli.md
 author: lcaminon
-tags: [lcaminon,bash]
+tags: [bash]
 ---
 List all VMs :
 

@@ -2,7 +2,7 @@
 layout: post
 title: adding_request_delays.md
 author: antoine-wdg-rmz
-tags: [antoine-wdg-rmz,docker]
+tags: [docker]
 ---
 Can be useful when porgramming JS so that the UI is resilient to slow requests.
 

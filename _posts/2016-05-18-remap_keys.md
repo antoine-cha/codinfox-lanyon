@@ -2,7 +2,7 @@
 layout: post
 title: remap_keys.md
 author: Olivier
-tags: [Olivier,vim]
+tags: [vim]
 ---
 In Vim, the \<ESC> and \<CTRL> keys are hard to reach, but used a lot.
 

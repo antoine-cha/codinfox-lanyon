@@ -2,7 +2,7 @@
 layout: post
 title: subprocess-multiprocessing.md
 author: Antoine
-tags: [Antoine,python]
+tags: [python]
 ---
 ### Using subprocesses with multiprocessing
 
