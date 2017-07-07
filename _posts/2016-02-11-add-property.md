@@ -1,13 +1,9 @@
 ---
 layout: post
-title: Adding property on resources
+title: add-property.md
 author: antoan2
-comments: false
-category: dev
 tags: [antoan2,oar]
 ---
-
-
 # Adding property on ressources
 
 If you want to have some nodes with specific configuration, you can add property that you will specify when using oarsub
