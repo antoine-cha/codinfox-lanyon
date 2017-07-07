@@ -52,7 +52,7 @@ title: Blog
     {% if paginator.page == 2 %}
     <a class="pagination-item newer" href="{{ site.root }}/blog">Newer</a>
     {% else %}
-    <a class="pagination-item newer" href="/blog/page{{paginator.previous_page}}">Newer</a>
+    <a class="pagination-item newer" href="{{ site.root }}/blog/page{{paginator.previous_page}}">Newer</a>
     {% endif %}
     {% else %}
     <span class="pagination-item newer">Newer</span>
