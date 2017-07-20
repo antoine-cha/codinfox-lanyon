@@ -34,3 +34,6 @@ Marking a function `async` makes it return a promise.
 Putting `await` before a promise waits for it to resolve and returns 
 the argument that would have been passed to `resolve`.
 
+**WARNING**: this feature is not included in ES6, but can be added with plugins 
+and is part of ES7.
+This is understood by [many browsers](http://kangax.github.io/compat-table/es2016plus/).
