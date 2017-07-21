@@ -2,7 +2,7 @@
 layout: post
 title: creating-terminal-in-python.md
 author: antoan2
-tags: [python, tools, console]
+tags: [python, terminal]
 ---
 
 # The objective
@@ -11,8 +11,8 @@ The library cmd helps you to create a simple terminal with simple help and autoc
 # The bases
 You create a class MyShell that herites from cmd.Cmd. To run the prompt just use `Shell().cmdloop()` in your python code.
 
-If you want to create a function get_something, you write 3 methods :
-- `MyShell.do_get_something(arg)` : the function that get the something if you write in the prompt `get_something`
+If you want to create a feature get_something in your shell, you write 3 methods :
+- `MyShell.do_get_something(arg)` : the function that gets the something if you write in the prompt `get_something`
 - `MyShell.help_get_something(arg)` : this will give you some help if you write in the prompt `help get_something`
 - `MyShell.complete_get_something(text, line, begidx, endidx)` : this will allow you to create an autocompletion method for your function (this is optional)
 
