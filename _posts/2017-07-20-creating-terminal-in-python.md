@@ -9,15 +9,15 @@ tags: [python, tools, console]
 The library cmd helps you to create a simple terminal with simple help and autocompletion build in templates.
 
 # The bases
-You create a class MyShell that herites from cmd.Cmd. To run the prompt just use Shell().cmdloop() in your python code.
+You create a class MyShell that herites from cmd.Cmd. To run the prompt just use `Shell().cmdloop()` in your python code.
 
 If you want to create a function get_something, you write 3 methods :
-- MyShell.do_get_something(arg) : the function that get the something if you write in the prompt `get_something`
-- MyShell.help_get_something(arg) : this will give you some help if you write in the prompt `help get_something`
-- MyShell.complete_get_something(text, line, begidx, endidx) : this will allow you to create an autocompletion method for your function (this is optional)
+- `MyShell.do_get_something(arg)` : the function that get the something if you write in the prompt `get_something`
+- `MyShell.help_get_something(arg)` : this will give you some help if you write in the prompt `help get_something`
+- `MyShell.complete_get_something(text, line, begidx, endidx)` : this will allow you to create an autocompletion method for your function (this is optional)
 
 # A simple example
-```
+```python
 #!/usr/bin/env python2.7
 # Simple example of a command line tool that just list the movies or display the movie id
 import cmd, sys
