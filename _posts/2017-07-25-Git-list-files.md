@@ -1,3 +1,11 @@
+---
+layout: post
+title: git ls-files
+comments: true
+tags: git
+author: klex
+---
+
 # Show information about files in the index and the working tree of a git repository
 
 In a git repository
