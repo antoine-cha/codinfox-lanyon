@@ -6,14 +6,16 @@ tags: git
 author: klex
 ---
 
-# Show information about files in the index and the working tree of a git repository
+Show information about files in the index and the working tree.
 
-In a git repository
+### List all files in the repository staged
 ```
 git ls-files
 ```
-has a bunch of cool options. For example, 
+
+### List all files in the repository not staged in the index
+
 ```
 git ls-file -o
 ```
-lists all files in the repository not staged in the index, so you can delete them to have a clean repository and make a new install.
+Useful if you need a clean repository and make a new install.
