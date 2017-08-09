@@ -38,4 +38,4 @@ Write in your `~/.docker/config.json`:
 }
 ```
 
-For more information check https://docs.docker.com/engine/reference/commandline/ps/#formatting
+For more information check [https://docs.docker.com/engine/reference/commandline/ps/#formatting]()
