@@ -23,7 +23,9 @@ With a terminal too small, the output spans 2 lines
 #### Ephemeral change
 
 ```
+{% raw %}
 $ docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Image}}"
+{% endraw %}
 
 NAMES                                 STATUS                    IMAGE        
 mxnet_compile_1                       Up 21 hours               mxnet:compile
@@ -34,7 +36,9 @@ mxnet_compile_1                       Up 21 hours               mxnet:compile
 Write in your `~/.docker/config.json`:
 ```JSON
 {
+{% raw %}
     "psFormat": "table {{.Names}}\t{{.Status}}\t{{.Image}}"
+{% endraw %}
 }
 ```
 
