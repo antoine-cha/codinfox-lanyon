@@ -1,8 +1,8 @@
 ---
 layout: post
-title: docker-compose.md
+title: docker compose configuration override
 author: Alexandre B.
-tags: [docker] [docker-compose]
+tags: [docker,docker-compose]
 ---
 ## Override your docker-compose.yml
 
