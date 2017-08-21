@@ -13,6 +13,9 @@ Create easily a list of distinct colors (for plotting or visualisation), using m
 To get a list of colors, go chose the colormap you want [here](https://matplotlib.org/examples/color/colormaps_reference.html).
 Multiple shading offs are provided, as well as discrete colormaps (qualitative section).
 
+![beautiful_colormaps](https://matplotlib.org/mpl_examples/color/colormaps_reference_04.png)
+
+
 You can then create `n` different colors by passing a list of `n` float uniformly spaced between 0 and 1.
 
 ### Example
