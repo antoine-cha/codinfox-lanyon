@@ -5,6 +5,23 @@ author: antoine-cha
 tags: [python]
 ---
 
+## TL;DR
+
+From [stackoverflow](https://stackoverflow.com/a/434411)
+```python
+from itertools import izip_longest
+
+def grouper(iterable, n, fillvalue=None):
+    """ Iterate on an iterable by chunks of size n, filling the last with fillvalue """
+    args = [iter(iterable)] * n
+    return izip_longest(*args, fillvalue=fillvalue)
+```
+
+Example
+
+```
+grouper('ABCDEFG', 3, 'x') --> 'ABC' 'DEF' 'Gxx'
+```
 
 ## Formula
 ```python
