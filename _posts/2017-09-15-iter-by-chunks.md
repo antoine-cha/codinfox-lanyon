@@ -37,11 +37,11 @@ tags: [python]
 
 - The `*` operator is used to unpack an array into positional arguments for a function
 - From the [docs](https://docs.python.org/2.7/tutorial/controlflow.html#unpacking-argument-lists):
- ```Python
->> range(3, 6)             # normal call with separate arguments
+ ```python
+>> range(3, 6)      # normal call with separate arguments
 [3, 4, 5]
 >> args = [3, 6]
->> range(*args)            # call with arguments unpacked from a list
+>> range(*args)     # call with arguments unpacked from a list
 [3, 4, 5]
  ```
 
@@ -59,7 +59,7 @@ tags: [python]
 
 ### All together
 
-```Python 
+```python 
 >> L = range(10); print(L)
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 >> it = iter(L); print(it)
