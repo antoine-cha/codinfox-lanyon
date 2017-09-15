@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Iterating by chunks of same size 
-author: Alexandre B.
-tags: [docker,docker-compose]
+author: antoine-cha
+tags: [python]
 ---
 
 
