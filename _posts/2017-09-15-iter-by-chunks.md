@@ -7,7 +7,7 @@ tags: [python]
 
 
 ## Formula
-```Python
+```python
 >> L = range(10)
 # We want [(0, 1, 2), (3, 4, 5), (6, 7, 8)]
 >> zip(*[iter(L)]*3)
@@ -21,7 +21,7 @@ tags: [python]
 - `[obj] * N` returns a list of N __references__ to `obj`. 
   - If `obj` is a dict, modifying the first element of the list will affect all the other elements of the list.
 
-```Python
+```python
 >> L = range(10)
 >> M = [iter(L)]*3
 >> M[0].next()
@@ -49,7 +49,7 @@ tags: [python]
 
 - From the [docs](https://docs.python.org/2/library/functions.html#zip):
   - `zip` returns a list of tuples. The i-th tuple contains the i-th element from each of the argument sequences or iterables.
-```Python
+```python
 >> x = [1, 2, 3]
 >> y = [4, 5, 6]
 >> zipped = zip(x, y)
@@ -77,7 +77,7 @@ tags: [python]
 - To obtain the last elements, use [`itertools.izip_longest`](https://docs.python.org/2/library/itertools.html#itertools.izip_longest)
   - As [`izip`](https://docs.python.org/2/library/itertools.html#itertools.izip), this returns an iterator, not a list
   
-```Python
+```python
 >> import itertools
 >> L = range(10)
 # We want [(0, 1, 2), (3, 4, 5), (6, 7, 8)]
