@@ -1,8 +1,8 @@
 ---
 layout: post
-title: terminal-encoding.md
+title: Opening multiple files in Vim
 author: Antoine
-tags: [docker]
+tags: [vim]
 ---
 
 ## CLI
