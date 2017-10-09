@@ -6,7 +6,7 @@ tags: [amazon]
 ---
 
 ## The tool
-http://awspolicygen.s3.amazonaws.com/policygen.html
+[AWS S3 policy generator](http://awspolicygen.s3.amazonaws.com/policygen.html)
 
 ### What for ?
 
