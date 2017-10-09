@@ -5,6 +5,7 @@ Nvim is asynchronous and multicore. Already enough to consider it a way to go...
 Start by reading some stuff there `:help nvim-from-vim`. The following will describe the main steps :
 1. Installing Neavim with python support :
 ```
+  sudo add-apt-repository ppa:neovim-ppa/stable
   sudo apt-get install neovim
   sudo apt-get install python-neovim # Or "pip2 install neovim"
   sudo apt-get install python3-neovim # Or "pip3 install neovim"
