@@ -1,3 +1,10 @@
+---
+layout: post
+title: Installing Neovim
+author: antoan2
+tags: [vim,neovim]
+---
+
 # Intro
 Nvim is asynchronous and multicore. Already enough to consider it a way to go...
 
