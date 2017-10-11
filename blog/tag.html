@@ -24,7 +24,7 @@ Here we generate all the tags.
 {% endif %}
 
 {% unless tags contains tag %}
-{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' | sort %}
 {% endunless %}
 {% endif %}
 {% endfor %}
