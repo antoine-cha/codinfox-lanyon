@@ -15,7 +15,8 @@ title: Tags
     {% for tag in sorted_tags %}
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
     <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
+      {% assign sorted_posts = tag[1] | sort %}
+      {% for post in sorted_posts %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         {{ post.title }}
