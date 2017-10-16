@@ -2,7 +2,7 @@
 layout: post
 title: Create a patch from a pull request
 author: Klex
-tags: [bitbucket git]
+tags: [bitbucket,git]
 ---
 
 ## Bitbucket: create a git patch from a pull request
