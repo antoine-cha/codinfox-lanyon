@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Right python pip
+title: Using the right pip for your Python version
 comments: true
-category: python python3 pip pip3
+tag: [python,python3,pip]
 ---
 
 ## Context
