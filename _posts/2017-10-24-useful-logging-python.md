@@ -67,5 +67,7 @@ LOGGER.info("Bonjour !")
 ```
 Output:
 ```
+$ python main.py
+
 [CEST 2017-10-24 14:03:13]my-logger INFO(main 8): Bonjour !
 ```
