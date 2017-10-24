@@ -55,7 +55,7 @@ loggers:
         propagate: no                                                                    
 ```
 `main.py`
-```Python
+```python
 import yaml
 import logging
 import logging.config
