@@ -49,17 +49,23 @@ handlers:
         stream: ext://sys.stdout                                                         
                                                                                          
 loggers:                                                                                 
-    prefetch:                                                                            
+    my-logger:                                                                            
         level: INFO                                                                      
         handlers: [console]                                                              
         propagate: no                                                                    
 ```
 - `main.py`
 ```Python
-import pyyaml
+import yaml
 import logging
 import logging.config
 with open("logging_conf.yaml") as f:                   
     logging.config.dictConfig(yaml.safe_load(f.read()))
-LOGGER = logging.getLogger("my-logger")                 
+LOGGER = logging.getLogger("my-logger")
+
+LOGGER.info("Bonjour !")
+```
+- Output:
+```
+[CEST 2017-10-24 14:03:13]my-logger INFO(main 8): Bonjour !
 ```
