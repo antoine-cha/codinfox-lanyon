@@ -32,7 +32,7 @@ Source: [LogRecord-attributes](https://docs.python.org/2/library/logging.html#lo
 Instead of going through a long list of calls to the `logging` API, configuring your logger can be done from files.
 
 ### YAML example
-- `logging_conf.yaml`
+`logging_conf.yaml`
 ```yaml
 version: 1                                                                               
 disable_existing_loggers: False                                                          
@@ -54,7 +54,7 @@ loggers:
         handlers: [console]                                                              
         propagate: no                                                                    
 ```
-- `main.py`
+`main.py`
 ```Python
 import yaml
 import logging
@@ -65,7 +65,7 @@ LOGGER = logging.getLogger("my-logger")
 
 LOGGER.info("Bonjour !")
 ```
-- Output:
+Output:
 ```
 [CEST 2017-10-24 14:03:13]my-logger INFO(main 8): Bonjour !
 ```
