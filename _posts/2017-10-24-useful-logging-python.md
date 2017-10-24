@@ -20,7 +20,7 @@ This module is extremely useful and has many unknown features.
 
 Name | Format | Description
 ---- | ------ | ---------
-asctime | %(asctime)s |	Human-readable time when the LogRecord was created. By default this is of the form ‘2003-07-08 16:49:45,896’ (the numbers after the comma are millisecond portion of the time).
+asctime | `%(asctime)s` |	Human-readable time when the LogRecord was created. By default this is of the form ‘2003-07-08 16:49:45,896’ (the numbers after the comma are millisecond portion of the time).
 levelname | `%(levelname)s` | Text logging level for the message ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL').
 filename | `%(filename)s` | Filename portion of pathname.
 lineno | `%(lineno)d` | Source line number where the logging call was issued (if available).
