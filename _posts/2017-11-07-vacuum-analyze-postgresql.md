@@ -6,12 +6,12 @@ tag: [psql]
 ---
 
 
-[Source article](https://lob.com/blog/supercharge-your-postgresql-performance)
+[Source: Lob's blog](https://lob.com/blog/supercharge-your-postgresql-performance)
 
 Some time, when the tables get bigger, the request time of some requests can be incredibly high (5 minutes for a join on a table).
 The explaination can come from the tables not being properly vacuumed or analyzed.
 
-"**Vacuuming** cleans up stale or temporary data, and **analyzing** refreshes its knowledge of all the tables for the query planner. We saw an immediate decrease in execution time for our complex queries, and as a result, a much more user-friendly internal website."
+> **Vacuuming** cleans up stale or temporary data, and **analyzing** refreshes its knowledge of all the tables for the query planner. We saw an immediate decrease in execution time for our complex queries, and as a result, a much more user-friendly internal website.
 
 ## Diagnostic
 To see the last time the tables has been vaccumed and analyzed
