@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Slow query: Setting up automatic vacuum
-author: klex
+title: Setting up automatic vacuum and analyze
 tags: [psql]
+author: klex
 ---
-
 
 [Source: Lob's blog](https://lob.com/blog/supercharge-your-postgresql-performance)
 
