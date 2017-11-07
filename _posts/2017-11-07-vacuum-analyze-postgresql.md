@@ -2,7 +2,7 @@
 layout: post
 title: Slow query: Setting up automatic vacuum
 author: klex
-tag: [psql]
+tags: [psql]
 ---
 
 
