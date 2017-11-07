@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Slow query: Setting up automatic vacuum
-comments: true
+author: klex
 tag: [psql]
 ---
 
