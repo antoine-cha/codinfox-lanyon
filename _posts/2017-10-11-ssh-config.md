@@ -7,21 +7,21 @@ tags: ssh
 ---
 
 This tip has three goals:
-- make ssh command shorter (`ssh klex` instead of `ssh alexandre@father3.reminiz`)
+- make ssh command shorter (`ssh alex` instead of `ssh alex@alexComputer`)
 - avoid having to type password when using ssh
 - forward you ssh keys so that you can use them while on another machine
 
 ## Config file
 
 ```
-Host klex
-    HostName father3.reminiz
-    User alexandre
+Host alex
+    HostName alexComputer
+    User alex
     ForwardAgent yes
 
-Host chacha
-    HostName father2.reminiz
-    User antoine
+Host nick
+    HostName nickComputer
+    User nick
     ForwardAgent yes
 ```
 
@@ -39,8 +39,8 @@ ssh-copy-id -i <path-to-my-key> <host>
 In our case:
 
 ```bash
-ssh-copy-id -i ~/.ssh/id_rsa klex
-ssh-copy-id -i ~/.ssh/id_rsa chacha
+ssh-copy-id -i ~/.ssh/id_rsa alex
+ssh-copy-id -i ~/.ssh/id_rsa nick
 ```
 
 
