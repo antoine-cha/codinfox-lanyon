@@ -36,6 +36,7 @@ For each machine you want to access, run the following command:
 ssh-copy-id -i <path-to-my-key> <host>
 ```
 
+
 In our case:
 
 ```bash
@@ -43,6 +44,7 @@ ssh-copy-id -i ~/.ssh/id_rsa alex
 ssh-copy-id -i ~/.ssh/id_rsa nick
 ```
 
+**Note:** since `~/.ssh/id_rsa` is actually the default path for the ssh key, we can just use `ssh-copy-id <host>`
 
 ## Check that agent forwarding works
 
