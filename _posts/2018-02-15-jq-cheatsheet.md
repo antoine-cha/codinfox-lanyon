@@ -1,13 +1,26 @@
 ---
 layout: post
-title: Modify a JSON in cli
+title: JQ cheatsheet
 tags: [json]
 author: klex
 ---
 
 [Source: Monsanto](http://engineering.monsanto.com/2015/05/22/jq-change-json/)
 
-# Modify a speficic key in a JSON
+## Add/change a key to a JSON
+
+```bash
+function jq_add_key {
+  jq --arg key $2 ". + {$2: \$key}"
+}
+
+cat <source>.json | jq --arg key <value> '. + {<key>: $key}'
+
+cat {source}.json | jq_change_key {key} {new_value} > {dest}.json
+
+```
+
+## Modify a key only if exists in a JSON
 
 ```bash
 function jq_change_key {
