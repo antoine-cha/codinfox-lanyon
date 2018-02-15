@@ -11,7 +11,7 @@ author: klex
 
 ```bash
 function jq_add_key {
-  jq --arg key $2 ". + {$2: \$key}"
+  jq --arg key "$2" ". + {$2: \$key}"
 }
 
 cat <source>.json | jq --arg key <value> '. + {<key>: $key}'
