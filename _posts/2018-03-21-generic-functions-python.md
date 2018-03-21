@@ -13,7 +13,7 @@ A generic function is a function defined for polymorphism.
 
 In Python3.6, you can achieve this using `functools.singledispatch`:
 
-```Python
+```python
 from functools import singledispatch
 
 @singledispatch
